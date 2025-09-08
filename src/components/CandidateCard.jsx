@@ -3,7 +3,7 @@ import { Star } from "lucide-react"; // modern star icon
 
 const CandidateCard = ({ name, role, experience, rating }) => {
   return (
-    <div className="glass w-72 p-6 rounded-2xl shadow-lg hover:shadow-xl transition transform hover:-translate-y-1">
+    <div className="glass  md:w-72 p-6 rounded-2xl shadow-lg hover:shadow-xl transition transform hover:-translate-y-1">
       {/* Candidate Info */}
       <h2 className="text-2xl font-semibold text-white">{name}</h2>
       <p className="text-lg text-white/80">{role}</p>
