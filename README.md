@@ -9,7 +9,7 @@ The application features a **glassmorphism-themed dashboard** for managing candi
 
 ## 🖥️ Demo 
 
-* Demo Link: [Demo Link](https://www.figma.com)
+* Demo Link: [Demo Link](https://skillvi-test.netlify.app/)
   
 
 
