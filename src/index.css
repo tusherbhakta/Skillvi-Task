@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.font-monument { font-family: "Monument Extended", system-ui, sans-serif; }
+.font-poppins { font-family: 'Poppins', sans-serif; }
+.glass {
+  background: rgba(255, 255, 255, 0.1); /* transparent white */
+  backdrop-filter: blur(12px);           /* frosted blur */
+  -webkit-backdrop-filter: blur(12px);  /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
