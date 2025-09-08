@@ -1,28 +1,3 @@
-// import React from "react";
-
-// const FeedbackCard = ({ company, rating, notes }) => {
-//   return (
-//     <div className="card w-80 bg-base-100 shadow-md p-4">
-//       <h2 className="font-bold">{company}</h2>
-//       <div className="rating mt-2">
-//         {Array.from({ length: 5 }).map((_, i) => (
-//           <input
-//             key={i}
-//             type="radio"
-//             name={company}
-//             className="mask mask-star-2 bg-orange-400"
-//             checked={i + 1 === rating}
-//             readOnly
-//           />
-//         ))}
-//       </div>
-//       <p className="mt-2 text-sm text-gray-600">{notes}</p>
-//     </div>
-//   );
-// };
-
-// export default FeedbackCard;
-
 
 import React from "react";
 import { Star } from "lucide-react"; // star icon for rating
